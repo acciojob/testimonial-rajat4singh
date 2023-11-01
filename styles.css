@@ -1,1 +1,15 @@
 /*  your css code here. If applicable */
+*{
+	padding:0px;
+	margin:0px;
+	border-sizing: border-box;
+	background-color: #f5f5f5;
+}
+
+.container{
+	padding: 20px 10px;
+}
+.box p{
+	background-color: white;
+	border: 1px solid gray;
+}
