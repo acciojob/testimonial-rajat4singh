@@ -3,13 +3,38 @@
 	padding:0px;
 	margin:0px;
 	border-sizing: border-box;
-	background-color: #f5f5f5;
+	
 }
 
 .container{
-	padding: 20px 10px;
+	
+	background-color: #f5f5f5;
+	padding: 10px;
+	display:flex;
+	flex-direction:column;
+	gap:10px;
+	
 }
-.box p{
+.box{
 	background-color: white;
 	border: 1px solid gray;
+	padding: 10px;
+	border-height: 150px;
+
+	display:flex;
+	flex-direction:column;
+	
+	
 }
+.box p:nth-child(2n){
+	text-align: right;
+	font-style: italic;
+	
+	
+}
+.box p:nth-child(1n){
+	
+	
+	
+}
+
